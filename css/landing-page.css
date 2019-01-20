@@ -25,6 +25,15 @@ h6 {
     font-size: 14px;
 }
 
+nav.topnav {
+    border-bottom: 2px solid gold;
+}
+
+#siteSlider {
+    border-bottom: 2px solid gold;
+
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
@@ -91,7 +100,7 @@ h6 {
 }
 
 #navbarBrandImage {
-    width: 80px;
+    width: 100px;
     position: relative;
     top: -20px;
 }
@@ -105,17 +114,19 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #fff;
 }
 
 .content-section-b {
     padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
 }
 
 .section-heading {
     margin-bottom: 30px;
+    font-size: 44px;
+    text-transform: uppercase;
 }
 
 .section-heading-spacer {
@@ -219,6 +230,7 @@ p.copyright {
     padding: 28px;
     width: 80vw;
     text-align: center;
+    border: 1px solid gold;
 }
 
 .bigFont {
@@ -249,7 +261,7 @@ p.copyright {
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img {
     line-height: 1;
-    height: 600px;
+    height: 500px;
     width: 100%;
 }
 
@@ -280,6 +292,28 @@ div#carouselMain {}
 
 .shine {
     background: #FFD700 -webkit-gradient(linear, left top, right top, from(#FFD700), to(#fff), color-stop(0.5, #fff)) 0 0 no-repeat;
+    -webkit-background-size: 150px;
+    color: rgba(255, 255, 255, 0.3) !important;
+    -webkit-background-clip: text;
+    -webkit-animation-name: shine;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    text-shadow: 0 0px 0px rgba(255, 255, 255, 0.5);
+}
+
+.shine-gold {
+    background: #d7a72a -webkit-gradient(linear, left top, right top, from(#d7a72a), to(#fff), color-stop(0.5, #fff)) 0 0 no-repeat;
+    -webkit-background-size: 150px;
+    color: rgba(255, 255, 255, 0.3) !important;
+    -webkit-background-clip: text;
+    -webkit-animation-name: shine;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    text-shadow: 0 0px 0px rgba(255, 255, 255, 0.5);
+}
+
+.shine-silver {
+    background: RGB(148, 152, 161) -webkit-gradient(linear, left top, right top, from(RGB(148, 152, 161)), to(#fff), color-stop(0.5, #fff)) 0 0 no-repeat;
     -webkit-background-size: 150px;
     color: rgba(255, 255, 255, 0.3) !important;
     -webkit-background-clip: text;
